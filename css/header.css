@@ -1,0 +1,37 @@
+header{
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+.header-container{
+    block-size: 334px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+}
+.header--title-container{
+    inline-size: 90%;
+    text-align: center;
+    color:var(--just-white);
+}
+.header--title-container h1{
+    font: var(--headline-1);
+    margin-block-start: 33px;
+    margin-block-end: 24px;
+}
+.header--button{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 12px 16px;
+    position: absolute;
+    bottom: calc(50% - 191px);
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    background-color: var(--just-white);
+    font-weight: bold;
+}
+.header--button span{
+    font-size: 24px;
+}
