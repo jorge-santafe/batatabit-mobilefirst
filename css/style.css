@@ -1,0 +1,28 @@
+@import url('./icons.css');
+:root{
+    /* Colors */
+    --bitcoin-orange:#F7931A;
+    --soft-orange:#FFE9D5;
+    --secondary-blue:#1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black:#201E1C;
+    --warm-black-plus:#282623;
+    --gray-10:#BABABA;
+    --gray-20:#B5B0AC;
+    --gray-30:#808080;
+    --gray-40:#757575;
+    --black:#FFFFFF;
+    --off-white:#FAF8F7;
+    --just-white:#FFFFFF;
+    /* Fonts */
+    --base-font-family:'DM Sans', sans-serif;
+    --base-font-secondary:'Inter', sans-serif;
+    --headline-1:bold 1.5rem/1.625rem var(--base-font-family);
+    --headline-2:bold 1.125rem/1.4375rem var(--base-font-family);
+    --headline-3:bold 1.125rem/1.125rem var(--base-font-family);
+    --base-font: 500 0.875rem/1.125rem var(--base-font-family);
+    --headline-1-inter: bold 0.75rem/0.9375rem var(--base-font-secondary);
+    --headline-2-inter: 500 1rem/1.25rem var(--base-font-secondary);
+    --base-font-inter: normal 0.875rem/1rem var(--base-font-secondary);
+    --base-font-inter-sm:normal 0.75rem/0.9375rem var(--base-font-secondary);
+}
