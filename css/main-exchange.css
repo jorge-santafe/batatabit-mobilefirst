@@ -1,0 +1,29 @@
+.main-exchange-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    outline: 1px solid red;
+}
+.background-bitcoin{
+    inline-size: 191px;
+    block-size: 191px;
+    margin-block-start: 63px;
+    margin-block-end: 44px;
+    background-image: url('../assets/img/bitcoin.svg');
+}
+.main-exchange-container--title{
+    inline-size: 90%;
+    max-inline-size: 466px;
+    text-align: center;
+
+}
+.main-exchange-container--title h2{
+    font: var(--headline-1);
+    color: var(--warm-black);
+    margin-block-start: 0;
+    margin-block-end: 24px;
+}
+.main-exchange-container--title p{
+    color:var(--gray-10);
+}

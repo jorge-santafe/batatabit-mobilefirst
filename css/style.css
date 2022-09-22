@@ -1,6 +1,7 @@
 @import url('./icons.css');
 @import url('./body.css');
 @import url('./header.css');
+@import url('./main.css');
 :root{
     /* Colors */
     --bitcoin-orange:#F7931A;
