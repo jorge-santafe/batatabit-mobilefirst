@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    outline: 1px solid red;
 }
 .background-bitcoin{
     inline-size: 191px;
@@ -16,7 +15,6 @@
     inline-size: 90%;
     max-inline-size: 466px;
     text-align: center;
-
 }
 .main-exchange-container--title h2{
     font: var(--headline-1);
@@ -26,4 +24,61 @@
 }
 .main-exchange-container--title p{
     color:var(--gray-10);
+    margin-block-end: 44px;
+}
+/* Table */
+.main-table-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    justify-content: center;
+}
+.currency-table,.comission-table{
+    max-inline-size: 466px;
+}
+.currency-table--title,.comission-table--title{
+    font: var(--headline-2);
+    margin-inline-start: 12px;
+    margin-block-start: 0;
+    margin-block-end: 12px;
+}
+.currency-table--title{
+    color: var(--bitcoin-orange);
+}
+.comission-table--title{
+    color: var(--secondary-blue);
+}
+.table-container{
+    inline-size: 197px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-radius: 8px;
+    color: var(--gray-20);
+    background-color: var(--just-white);
+}
+.table-container > div{
+    padding: 10px 12px;
+    border-block-end: 2px solid var(--off-white);
+    border-inline-end: 2px solid var(--off-white);
+}
+.table__right{
+    display: flex;
+    color: var(--gray-40);
+    align-items: center;
+    justify-content: space-between;
+}
+.currency-date,.comission-date{
+    text-align: center;
+    inline-size: 80%;
+    padding: 8px 0;
+    margin:12px auto 0;
+    color: var(--warm-black);
+    border-radius: 8px;
+    font: var(--base-font-inter-sm);
+}
+.currency-date{
+    background-color: var(--soft-orange);
+}
+.comission-date{
+    background-color: var(--soft-blue);
 }
