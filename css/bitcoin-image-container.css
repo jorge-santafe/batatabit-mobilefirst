@@ -1,0 +1,10 @@
+.bitcoin-image-container{
+    block-size: 50%;
+    background-image: url("../assets/img/bitcoinbaby.png");
+    background-position: center;
+    background-size: cover;
+}
+.bitcoin-image-container h2{
+    padding-top: 60px;
+    margin: 0;
+}

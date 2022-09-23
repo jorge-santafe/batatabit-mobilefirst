@@ -1,5 +1,6 @@
 .main-product-detail{
     margin-block-start:72px;
+    padding-block-end:72px ;
     position: relative;
     background-color: var(--warm-black) ;
 }
