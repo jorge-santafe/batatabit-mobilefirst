@@ -26,9 +26,9 @@ h2,h3{
 }
 .product-detail--title{
     inline-size: 90%;
-    max-inline-size: 466px;
+    max-inline-size: 29.125rem;
     margin: 0 auto;
-    padding: 44px 0 0;
+    padding: 2.75rem 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,18 +43,18 @@ h2,h3{
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
-    margin-block-start: 40px;
+    margin-block-start: 2.5rem;
 }
 .product-detail--card{
     inline-size: 90%;
-    max-inline-size: 345px;
+    max-inline-size: 21.5625rem;
     padding: 0 1rem;
     background-color: var(--warm-black-plus);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
-    border-radius: 4px;
+    border-radius: 0.25rem;
 }
 .icon-clock,.icon-eye,.icon-dollar-sign,.icon-check-circle{
-    font-size: 24px;
+    font-size: 1.5rem;
     display: block;
     margin-block-start: 1rem;
 }
