@@ -1,0 +1,26 @@
+footer{
+    block-size: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block-start: 64px;
+    background-color: var(--bitcoin-orange);
+}
+.footer__container{
+    inline-size: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__contact{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0;
+    list-style: none;
+}
+.footer__contact a{
+    color: var(--just-white);
+}
