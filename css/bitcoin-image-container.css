@@ -1,5 +1,5 @@
 .bitcoin-image-container{
-    block-size: 50%;
+    block-size: 50vh;
     background-image: url("../assets/img/bitcoinbaby.png");
     background-position: center;
     background-size: cover;
